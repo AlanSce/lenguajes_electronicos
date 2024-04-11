@@ -10,7 +10,7 @@ Link al repo del curso completo: [Python-UNSAM](https://github.com/python-unsam/
 
 ## Documentación 
 
-Dado que para esta altura los conceptos generales de programación están claros, queda a su decisión si desean practiar con la [intro](https://github.com/python-unsam/Programacion_en_Python_UNSAM/tree/master/Notas/01_Introduccion) del curso. 
+Dado que para esta altura los conceptos generales de programación están claros, queda a su decisión si desean practicar con la [intro](https://github.com/python-unsam/Programacion_en_Python_UNSAM/tree/master/Notas/01_Introduccion) del curso. 
 
 Para saber cómo se utiliza la sintáxis de cualquier comando, la recomendación es referirse a:
 
