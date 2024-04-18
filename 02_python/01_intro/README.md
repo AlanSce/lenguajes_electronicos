@@ -16,12 +16,10 @@ Crear los siguientes códigos:
 
 1. ordenar_tipo.py:
 
-Debe contener una función llamada `ordenar_por_tipo` que acepte un parámetro `data`.
-
-ordenar_por_tipo(data): Esta función acepta como parámetro una variable `data` que debe contener la información necesaria del csv que crean correspondiente. Al llamarla, debe imprimir en pantalla una tabla con el siguiente formato:
+El código debe imprimir la siguiente tabla:
 ```
-<cantidad> | <tipo de árbol>
-<cantidad> | <tipo de árbol>
+<cantidad de árboles> | <tipo de árbol>
+<cantidad de árboles> | <tipo de árbol>
 ```
 El tipo de árbol lo vamos a tomar de la columna `nombre_com`.
 
@@ -31,9 +29,7 @@ La tabla debe estar ordenada de mayor a menor según las cantidades.
 
 Mostrarle un menú al usuario con las ubicaciones disponibles de los árboles, y permitirle al usuario [ingresar un número](https://stackoverflow.com/a/26692765)(Ver ejemplo) para elegir una ubicación.
 
-Al recibir la ubicación, llamar a la función `promedio_diametro`. Debe aceptar dos argumentos, `data` y `ubicacion`.
-
-promedio_diametro(data, ubicacion): Debe devolver el promedio del díametro de todos los árboles de la ubicación indicada.
+Al recibir la ubicación, debe devolver el promedio del diametro de todos los árboles de la ubicación indicada.
 
 Cargar los ejercicios en su repo y enviar un mail al docente con el link correspondiente.
 
