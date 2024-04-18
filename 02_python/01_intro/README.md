@@ -27,10 +27,9 @@ La tabla debe estar ordenada de mayor a menor según las cantidades.
 
 2. promedio_diametro.py
 
-Mostrarle un menú al usuario con las ubicaciones disponibles de los árboles, y permitirle al usuario [ingresar un número](https://stackoverflow.com/a/26692765)(Ver ejemplo) para elegir una ubicación.
+Mostrarle un menú al usuario con las tipos de árboles disponibles y permitirle al usuario [ingresar un número](https://stackoverflow.com/a/26692765) (Ver ejemplo) para elegir un tipo.
 
-Al recibir la ubicación, debe devolver el promedio del diametro de todos los árboles de la ubicación indicada.
-
+Al recibir el tipo, debe devolver el promedio de diametro de ese árbol.
 
 3) Ubicar en mapa
 
