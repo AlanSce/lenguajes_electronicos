@@ -31,11 +31,12 @@ Mostrarle un menú al usuario con las ubicaciones disponibles de los árboles, y
 
 Al recibir la ubicación, debe devolver el promedio del diametro de todos los árboles de la ubicación indicada.
 
-Cargar los ejercicios en su repo y enviar un mail al docente con el link correspondiente.
 
 3) Ubicar en mapa
 
 Vayamos un paso más, dado que pudimos ordenar los árboles por cantidad gracias al código ordenar_tipo, realizar un código `ubicar_unicos.py` que devuelva un link de google maps con la ubicación de cada árbol que solo haya 1.
+
+Para este ejercicio utilizar el archivo completo con todos los árboles.
 
 Tips:
 - Usar los datos latitud y longitud del csv.
