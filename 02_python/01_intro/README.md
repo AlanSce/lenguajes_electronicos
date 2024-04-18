@@ -33,6 +33,23 @@ Al recibir la ubicación, debe devolver el promedio del diametro de todos los á
 
 Cargar los ejercicios en su repo y enviar un mail al docente con el link correspondiente.
 
+3) Ubicar en mapa (OPCIONAL)
+
+Vayamos un paso más, dado que pudimos ordenar los árboles por cantidad gracias al código ordenar_tipo, realizar un código `ubicar_unicos.py` que devuelva un link de google maps para hacerle clic y que nos lleve a la ubicación de los árboles que solo haya 1. 
+
+Tips:
+- Usar los datos latitud y longitud del csv
+- Para generar un link de maps por coordenadas, debe tener el siguiente formato: https://www.google.com/maps?q={latitud},{longitud} 
+
+Ejemplo para el primer árbol del archivo: https://www.google.com/maps?q=-34.6450145297,-58.4775636069
+
+La salida del código debe ser una tabla que muestre:
+
+Nombre | Ubicación
+<arbol 1> | <link 1>
+<arbol 2> | <link 2>
+<arbol 3> | <link 3>
+
 
 
 
