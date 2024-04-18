@@ -45,11 +45,12 @@ Tips:
 Ejemplo para el primer árbol del archivo: https://www.google.com/maps?q=-34.6450145297,-58.4775636069
 
 La salida del código debe ser una tabla como esta:
-
+```
 Árboles únicos | Ubicación
 <arbol 1> | <link 1>
 <arbol 2> | <link 2>
 <arbol 3> | <link 3>
+```
 
 
 
