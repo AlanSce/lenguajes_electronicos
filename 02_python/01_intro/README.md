@@ -16,12 +16,10 @@ Crear los siguientes códigos:
 
 1. ordenar_tipo.py:
 
-Debe contener una función llamada `ordenar_por_tipo` que acepte un parámetro `data`.
-
-ordenar_por_tipo(data): Esta función acepta como parámetro una variable `data` que debe contener la información necesaria del csv que crean correspondiente. Al llamarla, debe imprimir en pantalla una tabla con el siguiente formato:
+El código debe imprimir la siguiente tabla:
 ```
-<cantidad> | <tipo de árbol>
-<cantidad> | <tipo de árbol>
+<cantidad de árboles> | <tipo de árbol>
+<cantidad de árboles> | <tipo de árbol>
 ```
 El tipo de árbol lo vamos a tomar de la columna `nombre_com`.
 
@@ -29,13 +27,29 @@ La tabla debe estar ordenada de mayor a menor según las cantidades.
 
 2. promedio_diametro.py
 
-Mostrarle un menú al usuario con las ubicaciones disponibles de los árboles, y permitirle al usuario [ingresar un número](https://stackoverflow.com/a/26692765)(Ver ejemplo) para elegir una ubicación.
+Mostrarle un menú al usuario con las tipos de árboles disponibles y permitirle al usuario [ingresar un número](https://stackoverflow.com/a/26692765) (Ver ejemplo) para elegir un tipo.
 
-Al recibir la ubicación, llamar a la función `promedio_diametro`. Debe aceptar dos argumentos, `data` y `ubicacion`.
+Al recibir el tipo, debe devolver el promedio de diametro de ese árbol.
 
-promedio_diametro(data, ubicacion): Debe devolver el promedio del díametro de todos los árboles de la ubicación indicada.
+3) Ubicar en mapa
 
-Cargar los ejercicios en su repo y enviar un mail al docente con el link correspondiente.
+Vayamos un paso más, dado que pudimos ordenar los árboles por cantidad gracias al código ordenar_tipo, realizar un código `ubicar_unicos.py` que devuelva un link de google maps con la ubicación de cada árbol que solo haya 1.
+
+Para este ejercicio utilizar el archivo completo con todos los árboles.
+
+Tips:
+- Usar los datos latitud y longitud del csv.
+- Para generar un link de maps por coordenadas, debe tener el siguiente formato: https://www.google.com/maps?q={latitud},{longitud} 
+
+Ejemplo para el primer árbol del archivo: https://www.google.com/maps?q=-34.6450145297,-58.4775636069
+
+La salida del código debe ser una tabla como esta:
+```
+Árboles únicos | Ubicación
+<arbol 1> | <link 1>
+<arbol 2> | <link 2>
+<arbol 3> | <link 3>
+```
 
 
 
