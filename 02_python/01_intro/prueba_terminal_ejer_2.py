@@ -22,11 +22,7 @@ jacaranda
 {0: 'washington', 1: 'fafa', 2: 'jacaranda'}
 >>> menu[1]
 'fafa'
->>> arbol['fafa'}
-  File "<stdin>", line 1
-    arbol['fafa'}
-                ^
-SyntaxError: closing parenthesis '}' does not match opening parenthesis '['
+
 >>> arbol['fafa']
 200
 
