@@ -4,7 +4,7 @@ import os
 import telebot
 from base import Storage
 
-BOT_TOKEN = '6995767185:AAF0XimjKhQxXhb1PgvjfCD1HvAy-8LBmrs'
+BOT_TOKEN = '<token>'
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
